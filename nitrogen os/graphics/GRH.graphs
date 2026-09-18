@@ -1,0 +1,57 @@
+; ==========================================================
+; Nitrogen OS GRH Graphics
+; ==========================================================
+
+screen 320, 200
+
+
+; Background
+
+clear black
+
+
+; Top bar
+
+rect 0, 0, 320, 20, green
+
+
+; Left panel
+
+rect 10, 30, 90, 150, blue
+
+
+; Middle panel
+
+rect 115, 30, 90, 150, red
+
+
+; Right panel
+
+rect 220, 30, 90, 150, cyan
+
+
+
+; Center pixels
+
+pixel 157, 95, white
+pixel 158, 95, white
+pixel 159, 95, white
+pixel 160, 95, white
+pixel 161, 95, white
+
+pixel 157, 96, white
+pixel 158, 96, white
+pixel 159, 96, white
+pixel 160, 96, white
+pixel 161, 96, white
+
+pixel 157, 97, white
+pixel 158, 97, white
+pixel 159, 97, white
+pixel 160, 97, white
+pixel 161, 97, white
+
+
+; Cursor
+
+cursor white
